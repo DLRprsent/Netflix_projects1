@@ -1,0 +1,701 @@
+*{
+
+    margin:0%;
+    padding:0%;
+    font-family: Domaine Disp Cond ;
+   
+
+}
+#main_div{
+    height:700px;
+    width: 100%;
+    background-image: url("m.jpg");
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+#neflix_img{
+
+height: 45px;
+width: 152px;
+background-image: url("netflix-logo-png-2562.png");
+background-size: cover;
+display:inline-block;
+
+    
+}
+
+
+
+
+
+#outerheader{
+
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  
+ 
+}
+
+header{
+
+    height: 86px;
+    width: 1172px;
+    margin: 0px 365px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+header span{
+
+ background-color: #C11119;
+ height: 32px;
+ width: 76px;
+ border-radius: 5px;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition-property: all;
+ transition-duration: 0.5s;
+  
+  
+    
+}
+
+header span:hover{
+     background-color: #C11119;
+}
+
+.drop_button{
+
+    height: 30px;
+    width: 120px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(26, 25, 25, 0.8);
+    border:1px solid white;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    
+   
+    
+}
+
+span button{
+
+background-color:#f0010d;
+border: 2px solid #d8010b;
+color: white;
+font-weight: bold;
+font-size: 14px;
+height: 100%;
+width: 100%;
+border-radius: 5px;
+transition-property: all;
+transition-duration: 0.5s;
+
+
+
+}
+
+span button:hover{
+    
+    background-color: #C11119;
+}
+
+span{
+    position: relative;
+    left: 820px;
+    
+    
+}
+
+
+ header #drop_button_div{
+
+    height: 32px;
+    width: 126px;
+    position: relative;
+    left: 800px;
+  
+   
+
+}
+
+
+#middle1{
+    position: absolute;
+    top: 250px;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+   
+}
+
+#middle1 h1{
+
+    font-size: 50px;
+    
+   
+   
+    
+}
+
+#middle1 p{
+
+    font-family: 'Helvetica Neue UltraLight.ttf';
+}
+
+#middle2{
+    position: absolute;
+    top: 400px;
+    height:30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+   
+}
+
+#middle2 h3{
+
+    font-size: 21px;
+    font-family: 'NetflixSans_W_Md (1)';
+}
+
+#email{
+
+    height:60px;
+    width: 390px;
+    border-radius: 10px;
+    margin-left:15px ;
+    
+
+   
+    
+}
+
+#email input{
+
+    height: 95%;
+    width: 92%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(43, 41, 41, 0.8);
+   font-size: 14px;
+   border-radius: 5px;
+   border: 0.8px solid white;
+   padding-left: 10px;
+   
+
+}
+
+#gmail{
+
+    height: 60px;
+    width: 586px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 10px;
+    position: absolute;
+    top: 450px;
+
+}
+
+#sign{
+
+    height: 99%;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #e20510;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+
+}
+
+#sign:hover{
+
+    background-color: #C11119;
+}
+
+#sign a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main2{
+    height:439px;
+    width:100% ;
+    background-color: #000000;
+    padding: 72px 0px;
+    border-top:5px solid #232323 ;
+    border-bottom:5px solid #232323 ;
+  
+
+}
+ #div1{
+    height: 439px;
+    width: 1172px;
+    background-color: #000000;
+    margin: 0px 365px ;
+    
+    display: flex;
+    align-items: center;
+  
+
+   
+} 
+
+#div2{
+    height: 140px;
+    width: 50%;
+    background-color: #000000;
+   
+    
+}
+
+h1{
+
+font-size: 48px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+font-size: 24px;
+color: rgb(255, 255, 255);
+font-size: 24px;
+}
+
+#img1{
+
+
+height:434.25px ;
+width:50%;
+background-image: url("tv.png");
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#img2{
+
+
+    height:434.25px ;
+    width:50%;
+    background-image: url("page_3.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    }
+    
+
+    #img3{
+
+        height:434.25px ;
+        width:50%;
+        background-image: url("page_4.png");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+       
+        }
+        
+        
+        #img4{
+
+            height:434.25px ;
+            width:50%;
+            background-image: url("page_5.png");
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+           
+            }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+            .main3{
+
+                height: 783px;
+                width: 100%;
+                background-color: #000000;
+                padding: 72px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                }
+                .last {
+                
+                        height: 783px;
+                        width: 1169px;
+                        display: flex;
+                        text-align: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        background-color:#000000;
+                        align-items: center;
+                        
+                }
+                
+                h3{
+                    color: aliceblue;
+                }
+                
+                
+                
+                h2{
+                    
+                    text-align: center;
+                    font-size: 48px;
+                padding: 30px;
+               color: antiquewhite;
+                }
+
+
+                #button{
+                 height: 58px;
+                 width: 101%;
+                font-size: 24px;
+                border: 0px solid #ec0410;
+                color: rgb(255, 255, 255);
+                background-color: #eb0b16;
+                font-weight: bold;
+                border-radius: 5px;
+               transition-property: all ;
+               transition-duration: 0.5s;
+
+                }
+              
+             #button:hover{
+                background-color: #C11119;
+                    
+                } 
+                #input{
+
+                    height:24px;
+                    width: 344px;
+                    padding: 24px 16px 8px;
+                    border-radius: 5px;
+                    border: 0.8px solid white;
+                    backdrop-filter: blur(0.8px);
+                    background-color: rgba(43, 41, 41, 0.8);
+                    color: aliceblue;
+
+                    
+                }
+                
+                
+
+                .hey1{
+                
+                    align-self: center;
+                    height: 84px;
+                    width: 1170px;
+                    padding: 20px;
+                    color: aliceblue;
+                    background-color:#2D2D2D;
+                    font-size: 24px;
+                    margin-bottom: 5px;
+                    text-align: start;
+                    transition-property: all ;
+                    transition-duration: 0.5s;
+                    
+                    
+                }
+
+                .hey1:hover{
+  
+                    background-color:#5a5959;
+                
+                }
+                
+
+               
+
+
+                
+
+                #membreship{
+
+                    height: 30px;
+                    width: 1000px;
+                
+                }
+                #pop{
+                    
+                    height:73px;
+                    width: 1000px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    /* background-color: red; */
+                  ;
+
+                }
+
+                #outer_button{
+
+                    height: 55px;
+                    width: 185px;
+                    background-color:#eb0b16;
+                    border-radius: 7px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left:10px;
+                    border:0px solid #e40a15 ;
+                    transition-property: all ;
+                   transition-duration: 0.5s;
+                    
+                }
+
+
+                #outer_button:hover{
+
+                    background-color: #C11119;
+                }
+
+
+
+.dj{
+
+
+    height:102px ;
+    width: 920px;
+    margin: 45.6px 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+
+
+    
+}
+
+#oo{
+  position: absolute;
+  right: 400px;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+
+    height: 485px;
+    border-top:5px solid #4E4E4E ;
+    width: 100%;
+    background-color: #000000;
+}
+
+#contain{
+
+    height: 365px;
+    width: 1172px;
+    background-color: rgb(181, 214, 32)(96, 30, 30);
+    margin: 0px 365px;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#question{
+
+    width: 100%;
+    height: 21px;
+    padding: 12px 0px;
+    color: white;
+}
+#question a{
+
+    color: white;
+}
+
+#fqe{
+
+    height: 153px;
+    width: 100%;
+    margin: 12px 0px;
+    padding: 12px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+    
+    
+}
+
+#fqe a{
+
+    color: white;
+}
+
+#pendrive{
+
+    font-size: 15px;
+    padding: 12px 0px;
+    font-weight: 100;
+   
+}
+
+#english{
+
+    padding: 12px 0px;
+}
+
